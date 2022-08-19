@@ -10,9 +10,11 @@ body{
     box-sizing: border-box;
 }
 .img{
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 .mediacard{
+    float: left;
     padding-right: 30px;
 
 }
@@ -52,20 +54,59 @@ body{
     background-color: white;
     color: green;
 }
-@font-face {
-    font-family:"fraunces";
-    src: url("./fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
-}
 
 .text{
     color: rgb(187, 187, 187);
     font-family:"Arial";
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media (max-width: 375px) {
 
+@media (max-width:375px) {
+    
+    body{
+        margin: 0px;
+
+    }
+    .img{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        width: 280px;
+        height: 220px;
+    }
+    .mediacard{
+        float:'';
+    }
+    .all{
+        background-color: transparent;
+        
+    }
+    .alltext{
+        height: 100px;
+        width: 250px;
+        position:absolute;
+        padding-top: 210px;
+        
+    }
+    .cardtop{
+        border-radius: 8px;
+        height: 560px;
+        width: 280px;
+        background-color: white;
+    }
+    .card{
+        padding-top: 10px;
+        padding-left: 230px;
+    }
+    .actionscard{
+        position:absolute;
+        padding-left: 27%;
+    }
+    
+    .text2{
+        font-size: 25px;
+    }
+    
 }
