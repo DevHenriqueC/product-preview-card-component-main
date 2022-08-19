@@ -1,0 +1,71 @@
+body{
+    background-color:blanchedalmond;
+}
+.container{
+    
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.img{
+    border-radius: 8px;
+}
+.mediacard{
+    padding-right: 30px;
+
+}
+.all{
+    border-radius: 8px;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+}
+.text3{
+    color: rgb(172, 172, 172);
+    padding-bottom: 0px;
+}
+.textv{
+    padding-top: 0px;
+    color:green ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.textva{
+    color: rgb(192, 190, 190);
+    padding-top: 20px;
+    
+}
+.actions{
+    
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border: transparent;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.actions:hover{
+    background-color: white;
+    color: green;
+}
+@font-face {
+    font-family:"fraunces";
+    src: url("./fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+.text{
+    color: rgb(187, 187, 187);
+    font-family:"Arial";
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width: 375px) {
+
+}
